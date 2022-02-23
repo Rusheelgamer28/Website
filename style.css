@@ -1,0 +1,90 @@
+#Welcome{
+    width: 100vw;
+    height: 100vh;
+    background: linear-gradient(cyan 25%,darkblue 50%,purple 100%);
+}
+
+#info,#articals,#Work{
+    width: 100vw;
+    height: 100vh;
+    background: linear-gradient(purple 25%,darkmagenta 50%,rgb(100, 62, 206));
+}
+
+body{
+    text-align: center;
+    background: purple;
+    font-family: 'Shizuru', cursive;
+}
+
+.img{
+    height: 25%;
+    margin-top: 15%;
+    border-radius: 100px;
+    border: 4px solid burlywood;
+
+}
+
+
+.head1{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: greenyellow;
+}
+
+#head2{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: greenyellow;
+    
+}
+
+.headings{
+    color: lightsalmon;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+p{
+    color: lightsalmon;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.line{
+    width: 30px;
+    height: 4px;
+    background-color: black;
+    margin:auto;
+
+}
+
+.link-container{
+        list-style: none;
+        position: fixed;
+        top: -16px;
+    background-color: black;
+    width: 100%;
+    padding: 20px;
+}
+
+.link{
+    display: inline;
+    padding: 20px;
+    margin: 15px;
+    font-size: 40px;
+    color: whitesmoke !important;
+}
+
+a{
+    color:whitesmoke;
+    margin: 50px;
+    text-decoration: none;
+}
+
+.size{
+    font-size: 35px;
+}
+.link :hover{
+    box-shadow: 3px 3px 7px whitesmoke;
+    border-radius: 20px;
+    border: 2px solid whitesmoke;
+}
+
+
+
